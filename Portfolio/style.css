@@ -1,0 +1,124 @@
+*{
+	padding: 0;
+    margin: 0;
+    font-family:Sans-Serif;
+}
+.container{
+    padding: 10px;
+    width: 850px;
+    background-image: radial-gradient(rgb(111,99,110), rgb(35,18,23));
+    display:inline-block;
+}
+.header{
+    width: 870px;
+    height: 50px;
+    background-color:rgb(241, 241, 241);
+    display: block;
+    margin: 0px;
+}
+.intro{
+    display:inline-block;
+    padding: 6px 10px 10px 15px;
+    font-family: "Comic Sans MS";
+    font-size: 25px;
+}
+.intro-right{
+    display:inline-block;
+    vertical-align: top;
+    padding: 15px;
+    color: black;
+    background-image:none;
+    margin-left: 340px;
+}
+.me{
+    background-color: grey;
+    margin: 10px;
+    padding: 5px;
+    height: 240px;
+    width: 370px;
+    display: inline-block;
+}
+.top-right{
+    height: 250px;
+    width: 425px;
+    margin: 10px;
+    background-color: rgb(218, 214, 214);
+    display: inline-block;
+    vertical-align: top;
+    background-image: linear-gradient(to right, white, rgb(218,203,217));
+}
+h3{
+    padding: 10px;
+    background-image: linear-gradient(rgb(185, 185, 185), grey, rgb(185, 185, 185));
+    color: white;
+}
+.top-right p{
+    padding: 0px 10px 0px 10px;
+    margin: 10px 0px 10px 0px;
+    font-size: 14px; 
+    text-align: left;
+}
+.under{
+    text-decoration: underline;
+}
+.article{
+    background-image: linear-gradient(to right, white, rgb(218,203,217));
+    height: 515px;
+    width: 260px;
+    display: inline-block;
+    vertical-align: top;
+}
+.article2{
+    background-image: linear-gradient(to right, white, rgb(218,203,217));
+    height: 515px;
+    width: 260px;
+    margin: 0px 20px 0px 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+.small{
+    height: 35px;
+    width: 35px;
+    margin: 4px;
+}
+.bottom{
+    margin: 10px;
+    height:515px;
+    width: 830px;
+}
+div p{
+    padding: 0px 10px 0px 10px;
+    margin: 10px 0px 10px 0px;
+    font-size: 12px; 
+    text-align: justify;
+}
+.pics{
+    height: 150px;
+    width: 260px;
+}
+h4{
+    color:white;
+    padding: 10px;
+    background-image: linear-gradient(rgb(185, 185, 185), grey, rgb(185, 185, 185));
+}
+.tech{
+    display: inline-block;
+    background-image: linear-gradient(to right, white, rgb(218,203,217));
+}
+.info{
+    height: 335px;
+    background-image: linear-gradient(to right, white, rgb(218,203,217));
+}
+button{
+    display:block;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: white;
+    background-color: rgb(64,125,97);
+}
+.shift{
+    margin-top: 5px;
+    padding-left: 13px;
+}

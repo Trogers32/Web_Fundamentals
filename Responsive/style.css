@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.test{
+    width: 50%;
+    height:20px;
+    border: 3px solid blue;
+}
+.col{
+    display:inline-block;
+    vertical-align: top;
+    height:20px;
+}
+.row{
+    padding:10px;
+    border: 3px solid blue;
+}
+@media only screen and (max-width: 680px){
+    .sm{
+        width:100%;
+        background-color: yellow;
+    }
+}
+@media only screen and (min-width: 681px){
+    .md{
+        width: 50%;
+        background-color: red;
+    }
+}
+@media only screen and (min-width: 1024px){
+    .lg{
+        width: 25%;
+        background-color: blue;
+    }
+}

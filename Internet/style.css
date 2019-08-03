@@ -1,0 +1,242 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: Arial;
+}
+.globe{
+    height: 90px;
+    width: 90px;
+    position:absolute;
+}
+.bluetext{
+    color:rgb(34,101,158);
+}
+.head1{
+    font-size: 45px;
+    padding-left:93px;
+    padding-top: 18px;
+    text-emphasis: none;
+    color:rgb(71,71,71);
+    width: 961px;
+}
+.head2{
+    color: white;
+    background-image: linear-gradient(rgb(37,103,159), rgb(82,131,173), rgb(37,103,159));
+    width: 961px;
+    height:48px;
+    margin-top: 3px;
+    padding-top:10px;
+    padding-left: 15px;
+    font-size: 30px;
+}
+.container{
+    padding: 3px;
+    background-image: linear-gradient(rgb(248, 248, 248), white);
+    width: 970px;
+    height: 600px;
+}
+.leftside{
+    width: 210px;
+    padding-top: 20px;
+    display:inline-block;
+    vertical-align: top;
+}
+.redtext{
+    color: red;
+}
+.bold{
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 15.8px;
+}
+.bold2{
+    padding-left: 5px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+.video{
+    background-image: linear-gradient(rgb(96,150,194),rgb(35,101,158));
+    border:0px;
+    height: 35px;
+    width: 185px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    font-size: 16.5px;
+    box-shadow: 2px 2px 2px grey;
+    margin: 5px 5px 2px 5px;
+}
+.resources{
+    background-image: linear-gradient(rgb(234,174,87),rgb(239,115,0));
+    border:0px;
+    height: 35px;
+    width: 185px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    font-size: 16.5px;
+    box-shadow: 2px 2px 2px grey;
+    margin: 4px 5px 20px 5px;
+}
+.firsthalf{
+    height: 185px;
+    width: 200px;
+    border-bottom: 1px solid grey;
+    margin-bottom: 25px;
+}
+.piccombo{
+    width: 200px;
+    height: 300px;
+    overflow: hidden;
+    background-image: url("images/ad_background.png");
+    box-shadow: 1px 1px 2px grey;
+}
+.reinvent{
+    color: white;
+    position: absolute;
+    width:180px;
+    text-align: center;
+    margin-top: 20px;
+    padding-left: 8px;
+    font-size: 23px;
+    font-weight: normal;
+}
+.ninja{
+    height: 120px;
+    width: 85px;
+    padding: 105px 0px 0px 52px;
+}
+.learn{
+    width: 162px;
+    height: 30px;
+    margin: 10px 0px 0px 17px;
+    font-size: 15.8px;
+    font-weight: bold;
+    color: white;
+    background-image: linear-gradient(rgb(114,207,223), rgb(0,192,223));
+    border: 0px;
+    border-radius: 5px;
+}
+.why{
+    font-size: 10.2px;
+    font-weight: normal;
+    color:rgb(104,214,231);
+}
+.why2{
+    font-size: 10.2px;
+    font-weight: normal;
+    color:rgb(175,233,243);
+}
+.why3{
+    font-size: 10.2px;
+    font-weight: normal;
+}
+.main{
+    display:inline-block;
+    width: 720px;
+    padding-left: 10px;
+}
+.dns_tele{
+    height: 50px;
+    width:740px;
+    display:block;
+    padding-bottom: 10px;
+    border-bottom: 1px solid grey;
+}
+.home{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    padding-top: 8px;
+}
+.DNS{
+    margin-left: 23px;
+    padding-top: 10px;
+    font-size: 16px;
+    color: rgb(53,114,165);
+    display:inline-block;
+    vertical-align: top;
+}
+.phoneset{
+    display:inline-block;
+    width: 100px;
+    height: 50px;
+    vertical-align: top;
+    margin-left: 370px;
+}
+.phone{
+    height: 40px;
+    width: 40px;
+    padding-bottom: 5px;
+}
+.contact{
+    display:inline-block;
+    font-size: 11px;
+    text-align: left;
+}
+.num{
+    font-size: 26px;
+    font-weight: bold;
+}
+.lightblue{
+    color:rgb(0,192,223);
+}
+.clientserver{
+    display:block;
+    width: 772px;
+    font-size: 14.5px;
+    padding-top: 5px;
+}
+.darkblue{
+    color:rgb(47,109,163);
+    font-weight: 800;
+}
+.firstline{
+    margin: 5px 5px 5px 0px;
+}
+.bold1{
+    font-weight: 800;
+}
+ul{
+    padding: 0px 70px 0px 40px;
+}
+ol{
+    padding: 0px 70px 0px 40px;
+    margin-top: 7px;
+}
+li{
+    padding-bottom: 8px;
+}
+.link{
+    width: 275px;
+    height: 100px;
+    padding-left: 200px;
+}
+.happens{
+    font-size: 14.5px;
+    width: 772px;
+}
+.big3{
+    border: 5px solid rgb(0,133,224);
+    padding: 10px;
+    margin-top: 10px;
+    width:670px;
+    box-shadow: 2px 2px 2px grey;
+}
+.htmlimage{
+    height: 110px;
+    width: 120px;
+}
+.big3text{
+    vertical-align: top;
+    display:inline-block;
+    width: 535px;
+    height: 100px;
+    padding-left: 10px;
+    font-size: 14.5px;
+}
+.big3size{
+    margin: 5px 0px 5px 0px;
+    
+}

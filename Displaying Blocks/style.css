@@ -1,0 +1,33 @@
+.wrapper{
+    background-color: rgb(213,210,174);
+    width: 650px;
+    padding: 15px;
+}
+.header_img{
+    height: 51px;
+    width: 101px;
+    background-color: white;
+}
+.header{
+    margin-left: 90px;
+    margin-top: 16px;
+}
+.line{
+    display:inline-block;
+}
+.blue{
+    height: 100px;
+    width: 100px;
+    border: 3px solid black;
+    margin: .3px;
+    padding: 10px;
+    background-color: rgb(130,180,238);
+}
+.red{
+    height: 100px;
+    width: 100px;
+    border: 3px solid black;
+    margin: .3px;
+    padding: 10px;
+    background-color: rgb(243,104,112);
+}

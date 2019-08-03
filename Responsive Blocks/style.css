@@ -1,0 +1,92 @@
+/*CSS reset settings here*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper{
+    padding: 15px;
+    max-width: 1024px;
+    background-color: grey;
+}
+.header{
+    min-height: 150px;
+    width: 99.6%;
+    background-color: green;
+    display: block;
+}
+.navigation{
+    min-height: 300px;
+    width: 20%;
+    background-color: blue;
+    display: inline-block;
+    margin-top: 20px;
+}
+.main_content{
+    min-height: 400px;
+    width: 74.5%;
+    background-color: red;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 25px auto;
+}
+.subcontents{
+    min-height: 200px;
+    width: 30%;
+    background-color: yellow;
+    display: inline-block;
+    margin: 5px 0 5px 12px;
+    vertical-align: top;
+}
+.advertisement{
+    min-height: 120px;
+    width: 97.1%;
+    background-color: purple;
+    margin: 25px 0 25px 13px;
+}
+
+@media screen and (min-width: 0px){
+    .navigation{
+        display:none;
+    }
+    .subcontents{
+        width:97%;
+    }
+    .main_content{
+        width: 96.5%;
+        margin-left: 0;
+    }
+}
+@media screen and (min-width: 681px) and (max-width: 1024px){
+    .navigation{
+        display:none;
+    }
+    .main_content{
+        width: 97.3%;
+        margin-left: 0;
+    }
+    .subcontents{
+        width:45%;
+        margin: 15px auto 15px 25px;
+    }
+    .advertisement{
+        width: 95.2%;
+        margin: 25px 0 25px 24px;
+    }
+}
+@media screen and (min-width: 1024px){
+    .navigation{
+        display:inline-block;
+    }
+    .subcontents{
+        width: 31%;
+    }
+    .main_content{
+        margin-left: 25px;
+        width: 74.5%;
+    }
+    .advertisement{
+        margin: 25px 0 25px 13px;
+        width: 97.1%;
+    }
+}
